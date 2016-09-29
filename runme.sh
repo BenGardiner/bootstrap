@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install byobu mosh vim vcsh git
+sudo apt-get install byobu mosh vim vcsh git htop tree
 sudo dpkg-reconfigure dash
 rm -rf ~/.byobu && vcsh clone https://github.com/BenGardiner/byobu-dotfile.git
 rm -f ~/.bashrc ~/.bash_profile ~/.profile && vcsh clone https://github.com/BenGardiner/bash-dotfiles.git
