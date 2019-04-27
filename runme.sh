@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt-get update
+sudo apt-get install gcc make automake
 sudo apt-get install byobu mosh vim vcsh git htop tree
 sudo dpkg-reconfigure dash
 rm -rf ~/.byobu && vcsh clone https://github.com/BenGardiner/byobu-dotfile.git
