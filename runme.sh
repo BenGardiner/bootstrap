@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt-get update
 sudo apt-get install gcc make automake
-sudo apt-get install byobu mosh vim vcsh git htop tree
+sudo apt-get install byobu mosh vim vcsh git htop tree curl python3-pip
 sudo dpkg-reconfigure dash
 rm -rf ~/.byobu && vcsh clone https://github.com/BenGardiner/byobu-dotfile.git
 rm -f ~/.bashrc ~/.bash_profile ~/.profile && vcsh clone https://github.com/BenGardiner/bash-dotfiles.git
